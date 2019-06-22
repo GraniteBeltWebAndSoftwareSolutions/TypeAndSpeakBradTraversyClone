@@ -60,6 +60,7 @@ const speak = () => {
 		speakText.onend = e => {
 			
 			console.log('Done speaking...');
+			body.style.background = '#141414';
 		}
 		
 		// Speak error
